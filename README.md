@@ -1,2 +1,18 @@
-# Implementing-and-Evaluating-K-Means-Clustering-from-Scratch
-Implemented K-Means clustering from scratch using NumPy, including centroid initialization, point assignment, and iterative updates. Generated a synthetic 2D dataset, applied the Elbow Method to find optimal k, and compared results against scikit-learn’s KMeans using inertia, centroids, and visualizations.
+
+# K-Means From Scratch Project
+
+## Files
+- `model.py` — Custom NumPy implementation of K-Means.
+- `preprocess.py` — Generates 2D synthetic dataset using make_blobs.
+- `main.py` — Runs elbow method, scratch K-Means, sklearn KMeans, saves outputs.
+
+## Steps
+1. Load dataset
+2. Run Elbow Method
+3. Train scratch and sklearn KMeans
+4. Compare centroids and inertia
+
+Run:
+```
+python main.py
+```
